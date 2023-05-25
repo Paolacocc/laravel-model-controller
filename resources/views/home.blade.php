@@ -23,15 +23,15 @@
                 <div class="col">
     
                     <div class="card" >
-                        <img class="card-img-top" src="{{ $movie['image']}}" alt="Card image cap">
+                        <img class="card-img-top" src="{{ $movie->image }}" alt="Card image cap">
                         <div class="card-body text-center">
-                            <h5 class="card-title">{{ $movie['title']}}</h5>
-                            <p class="card-text">{{ $movie['original_title']}}</p>
+                            <h5 class="card-title">{{ $movie->title }}</h5>
+                            <p class="card-text">{{ $movie->original_title }}</p>
                         </div>
                         <ul class="list-group list-group-flush text-center">
-                            <li class="list-group-item">{{ $movie['nationality']}}</li>
-                            <li class="list-group-item">{{ $movie['date']}}</li>
-                            <li class="list-group-item">{{ $movie['vote']}}</li>
+                            <li class="list-group-item">{{ $movie->nationality }}</li>
+                            <li class="list-group-item">{{ $movie->date }}</li>
+                            <li class="list-group-item">{{ $movie->vote }}</li>
                         </ul>
                         
                     </div>
